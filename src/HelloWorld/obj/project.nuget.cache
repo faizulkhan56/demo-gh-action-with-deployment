@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V/E3gQTgdIg=",
+  "dgSpecHash": "wklIGQFNQYQ=",
   "success": true,
-  "projectFilePath": "C:\\faizul-personal\\githubaction-tutorial\\demo-github-actions\\src\\HelloWorld\\HelloWorld.csproj",
+  "projectFilePath": "C:\\faizul-personal\\githubaction-tutorial\\demo-github-with-deployment\\src\\HelloWorld\\HelloWorld.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

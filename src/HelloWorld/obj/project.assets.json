@@ -13,13 +13,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\faizul-personal\\githubaction-tutorial\\demo-github-actions\\src\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "C:\\faizul-personal\\githubaction-tutorial\\demo-github-with-deployment\\src\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "C:\\faizul-personal\\githubaction-tutorial\\demo-github-actions\\src\\HelloWorld\\HelloWorld.csproj",
+      "projectPath": "C:\\faizul-personal\\githubaction-tutorial\\demo-github-with-deployment\\src\\HelloWorld\\HelloWorld.csproj",
       "packagesPath": "C:\\Users\\cefalo\\.nuget\\packages\\",
-      "outputPath": "C:\\faizul-personal\\githubaction-tutorial\\demo-github-actions\\src\\HelloWorld\\obj\\",
+      "outputPath": "C:\\faizul-personal\\githubaction-tutorial\\demo-github-with-deployment\\src\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "C:\\faizul-personal\\githubaction-tutorial\\demo-github-with-deployment\\NuGet.Config",
         "C:\\Users\\cefalo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -27,7 +28,8 @@
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -61,6 +63,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
