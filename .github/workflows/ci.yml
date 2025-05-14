@@ -38,11 +38,6 @@ jobs:
             --configuration Release --no-build \
             --logger "trx;LogFileName=test_results.trx"
 
-      - name: Upload Test Results
-        uses: actions/upload-artifact@v3
-        with:
-          name: test-results
-          path: '**/test_results.trx'
 
   # ───────────── Docker Build & Push ─────────────
   docker-build:
